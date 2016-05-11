@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Exit" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Pen" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Background" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp" >
+
+        <Button
+            android:id="@+id/save"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:text="@string/Exit" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:entries="@array/Pencolors"
+            android:text="@string/Pen" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:entries="@array/Backcolors"
+            android:text="@string/Background" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/leaf2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.72"
+        android:orientation="horizontal" >
+
+    </LinearLayout>
+
+</LinearLayout>
